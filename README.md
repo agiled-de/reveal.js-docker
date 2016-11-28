@@ -18,7 +18,7 @@ use of the following plugins:
   presentation. This is not a plugin, it just installs vis.js and makes it
   available
 
-## Getting started
+## Run the Docker image
 
 The image can be started with:
 
@@ -41,6 +41,16 @@ revealjs:
    - ./presentations:/revealjs/presentations
 ```
 
+## Access reveal.js
 
+reveal.js will be available on ```localhost:8000```. The side will show the
+direcories in ```./presentations``` click on ```demo``` to start the demo
+presentation.
 
+## Create new presentation
+
+To create a new presentation I recommend copying the demo presentation and
+modify it. If you want to create a copletely new presentation, make shure that
+you set the path to the reveal.js resources correctly. The resources are in the
+directory above the presentations, so all paths should start with ```../..```.
 
