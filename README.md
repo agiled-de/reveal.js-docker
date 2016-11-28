@@ -47,7 +47,7 @@ reveal.js will be available on ```localhost:8000```. The side will show the
 direcories in ```./presentations``` click on ```demo``` to start the demo
 presentation.
 
-## Create new presentation
+## Create new presentations
 
 To create a new presentation I recommend copying the demo presentation and
 modify it. If you want to create a copletely new presentation, make shure that
