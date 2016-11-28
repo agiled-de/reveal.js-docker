@@ -1,0 +1,7 @@
+div.slides img {
+  background-color: #FFFFFF !important;
+}
+
+div#mynetwork, div#tree_network {
+  height: 500px;
+}

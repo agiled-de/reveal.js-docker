@@ -4,7 +4,7 @@ set -e
 # If no presentations exist initialize a demo presentation
 if [ ! "$(ls -A /revealjs/presentations)" ]; then
   mkdir -p /revealjs/presentations/demo
-  mv /revealjs/demo.html_fix /revealjs/presentations/demo/demo.html
+  cp -r /revealjs/demo_presentation/* /revealjs/presentations/demo
 fi
 
 npm start

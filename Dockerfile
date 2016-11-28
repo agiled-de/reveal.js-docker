@@ -16,8 +16,8 @@ RUN mkdir -p /revealjs/presentations
 # Add index html for redirect (dirty fix)
 ADD ./index.html /revealjs/index.html
 
-# Add demo html to give a usage example
-ADD ./demo.html /revealjs/demo.html_fix
+# Add demo presentation to give a usage example
+ADD ./demo_presentation /revealjs/demo_presentation
 
 
 #################
